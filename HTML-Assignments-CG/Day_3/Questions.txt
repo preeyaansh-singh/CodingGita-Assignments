@@ -195,3 +195,5 @@ a) Use an abbreviation for the academy with full form on hover.
 b) Create two download links (for different files) and add tooltips to both.
 c) Create one external documentation link that opens in a new tab.
 d) Highlight the heading “Learning Resources”.
+
+Thank You
