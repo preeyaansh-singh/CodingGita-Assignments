@@ -47,3 +47,5 @@ srcset with two sizes
 
 First image loads immediately (eager) and is a logo from assets/logo.png
 Second image loads lazily and is a product photo from images/products/shoe.jpg Both should have proper alt text and width of 250px.
+
+Thts it 
