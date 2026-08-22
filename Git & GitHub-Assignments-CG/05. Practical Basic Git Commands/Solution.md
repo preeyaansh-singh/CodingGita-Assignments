@@ -69,10 +69,7 @@
 
 **Answer :***
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bc636bbd-fe8b-4530-9aaa-a85e8232486e" />
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dab03d47-3cb5-4221-a8cc-279f82871d1c" />
 <img width="658" height="234" alt="image" src="https://github.com/user-attachments/assets/8bc02a6d-604f-4df8-811e-d6c6fc7fea96" />
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4298b0e0-3a43-4d70-8e61-685b7b472052" />
 <img width="1078" height="256" alt="image" src="https://github.com/user-attachments/assets/c1cce765-7d6e-48e7-b34a-51579208ac7d" />
 
 ---
