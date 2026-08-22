@@ -37,6 +37,8 @@
 **Answer :***
 
 <img width="1600" height="1469" alt="image" src="https://github.com/user-attachments/assets/ad44dbbe-e99f-48fa-a833-94d8d7250ecc" />
+<img width="1600" height="695" alt="image" src="https://github.com/user-attachments/assets/ce1485b9-c05e-418d-b0e7-872c31eb453a" />
+
 
 ### Assignment 3: Practical – Clone + Basic Workflow
 
@@ -66,3 +68,68 @@
 
 
 **Answer :***
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bc636bbd-fe8b-4530-9aaa-a85e8232486e" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/dab03d47-3cb5-4221-a8cc-279f82871d1c" />
+<img width="658" height="234" alt="image" src="https://github.com/user-attachments/assets/8bc02a6d-604f-4df8-811e-d6c6fc7fea96" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4298b0e0-3a43-4d70-8e61-685b7b472052" />
+<img width="1078" height="256" alt="image" src="https://github.com/user-attachments/assets/c1cce765-7d6e-48e7-b34a-51579208ac7d" />
+
+---
+
+### Assignment 4: Command Flow & Movement
+
+**Objective:** Understand how files move in Git.
+
+**Tasks:**
+1. Complete the flow:
+
+```
+Working Directory
+       ↓  (Which command?)
+Staging Area
+       ↓  (Which command?)
+Local Repository
+       ↓  (Which command?)
+Remote Repository (GitHub)
+```
+
+2. Fill in the table:
+
+| Command       | From                | To                      |
+|---------------|---------------------|-------------------------|
+| `git add`     |                     |                         |
+| `git commit`  |                     |                         |
+| `git push`    |                     |                         |
+
+3. What is the use of the `-u` flag in `git push -u origin main`?
+
+**Submission:** Written answers
+
+**Answer :***
+
+<img width="1482" height="1600" alt="image" src="https://github.com/user-attachments/assets/5f9667ad-6467-4707-902c-da2c0d37fb9d" />
+
+---
+
+### Assignment 5: Overall Understanding + Reflection
+
+**Objective:** Test complete understanding of Day 5.
+
+**Tasks:**
+1. Write the correct sequence of commands for the basic workflow after making changes in files.
+2. Answer in 3–5 lines each:
+   - Why should we run `git status` frequently?
+   - What happens if we commit without staging?
+   - What is the difference between local commit and push?
+3. Write **4 key takeaways** from Day 5.
+
+**Submission:** Written answers
+
+**Submission:** Written answers
+
+**Answer :***
+
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/968de2f8-ef58-4f88-b528-498e5de561b3" />
+
+---
