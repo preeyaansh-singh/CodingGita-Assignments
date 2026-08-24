@@ -1,5 +1,3 @@
----
-
 ### Assignment 1: Understanding Concepts
 
 **Objective:** Check basic understanding of branching.
