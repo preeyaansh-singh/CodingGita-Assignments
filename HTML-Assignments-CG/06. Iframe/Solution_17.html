@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Control Page</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        iframe {
+            width: 45%;
+            height: 300px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Device Control Panel</h2>
+
+    <div class="container">
+        <!-- USB Permission -->
+        <iframe
+            src="https://www.example.com"
+            title="USB Device Access Demo"
+            allow="usb">
+        </iframe>
+
+        <!-- Gyroscope Permission -->
+        <iframe
+            src="https://www.example.com"
+            title="Gyroscope Access Demo"
+            allow="gyroscope">
+        </iframe>
+    </div>
+
+</body>
+</html>
