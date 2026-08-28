@@ -59,6 +59,14 @@
 - Screenshot of `git log --oneline`  
 - Screenshot showing `about.txt` is present on main
 
+**Answers :**
+
+<img width="2172" height="724" alt="image" src="https://github.com/user-attachments/assets/23c61009-071b-47fd-a49c-5617170d8f4a" />
+<img width="562" height="92" alt="image" src="https://github.com/user-attachments/assets/6e526200-02c3-4ed3-be63-31c59f282e89" />
+<img width="941" height="422" alt="image" src="https://github.com/user-attachments/assets/fcdb5024-6f36-400d-a854-f9242e355ffe" />
+
+
+
 ---
 
 ### Assignment 4:  Create & Merge Pull Request
@@ -87,6 +95,13 @@
 - Screenshot of the created Pull Request  
 - Screenshot after merging the PR  
 - Screenshot of final `git log --oneline` on main
+
+  **Answers :**
+
+<img width="917" height="190" alt="image" src="https://github.com/user-attachments/assets/1ff6ce44-5b62-4335-8777-ebc3555da49f" />
+<img width="901" height="112" alt="image" src="https://github.com/user-attachments/assets/003c334c-db70-4e27-9d66-a461115a78b0" />
+<img width="847" height="81" alt="image" src="https://github.com/user-attachments/assets/ed23adaa-67bc-4fdf-9301-69d535eb9ce6" />
+ 
 
 ---
 
