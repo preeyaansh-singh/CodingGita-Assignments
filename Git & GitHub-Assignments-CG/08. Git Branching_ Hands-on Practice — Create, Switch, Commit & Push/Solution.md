@@ -133,4 +133,4 @@ You are working on a website project. Currently you are on the `main` branch. Yo
 <img width="462" height="135" alt="image" src="https://github.com/user-attachments/assets/60c6e6b3-a37e-4f10-bfd3-5c7f28000d5d" />
 <img width="591" height="161" alt="image" src="https://github.com/user-attachments/assets/d7101d6f-094e-4307-a507-8c62306256e6" />
 
-Thank You
+Thank Youu
