@@ -110,3 +110,5 @@ if __name__ == "__main__":
     q58_debug_discount_program()
     q59_complete_debugging_challenge()
     q60_final_challenge_number_and_billing()
+
+print("")
