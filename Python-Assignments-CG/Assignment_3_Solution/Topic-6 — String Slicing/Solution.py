@@ -90,6 +90,14 @@ if __name__ == "__main__":
     q30_first_last_three()
     q31_slicing_challenge()
 
+# Q32 — Slice Without Counting from the Beginning
+
+text = "BTECH-CSE-2026"
+
+print(text[:5])     # BTECH
+print(text[6:9])    # CSE
+print(text[-4:])    # 2026
+
 '''Q24:
 PYT
 THO
@@ -128,4 +136,9 @@ Python -> Pyt hon
 Q31:
 CEG
 IGE
-JHFDB'''
+JHFDB
+
+Q32
+BTECH
+CSE
+2026'''
