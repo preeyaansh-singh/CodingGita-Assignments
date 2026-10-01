@@ -28,3 +28,22 @@ ReferenceError: Cannot access 'c' before initialization
 #### Summary :
 - var → hoisted + initialized (undefined)
 - let / const → hoisted but not initialized (TDZ → error)
+
+## Q12. Fix the Hoisting Errors
+
+### Corrected Code:
+```js
+var x = "Hello";
+let y = "World";
+const z = "!";
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+console.log(x + " " + y + z);
+```
+### Explanation:
+- var is hoisted and initialized as undefined, so it would not throw an error, but printing after assignment is better practice.
+- let and const are hoisted but stay in the Temporal Dead Zone (TDZ) until declared, so accessing them before declaration causes errors.
+- Fix: Move all declarations before usage to avoid hoisting-related issues.
