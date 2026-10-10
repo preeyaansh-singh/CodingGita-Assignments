@@ -24,7 +24,7 @@ console.log(true === 1);  // false
 
 // 4. Predict the output.
 console.log("" === 0);      // false
-console.log([] === false); // false
+console.log('[]' === false); // false
 // Explanation:
 // "" is a string, while 0 is a number.
 // [] is an array (object), while false is a boolean.
