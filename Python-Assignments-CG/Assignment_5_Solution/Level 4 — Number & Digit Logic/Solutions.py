@@ -78,11 +78,11 @@ print(greatest)
 
 # Q29. Smallest Digit Without min()
 number = abs(int(input("Enter a number: ")))
-greatest = 0
+smallest = 0
 
 for _ in range(number):
     digit = number % 10
-    if digit < greatest:
+    if digit < smallest:
         greatest = digit
     number //= 10
     if number == 0:
