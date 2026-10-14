@@ -62,7 +62,7 @@
     let value = null;
 
     console.log(typeof value);              // object
-    console.log(typeof value === "object"); // true
+    console.log(typeof value === "object"); // false
 
     // Explanation:
     // typeof null returns the string "object".
