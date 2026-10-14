@@ -1,7 +1,3 @@
-// JavaScript Practice – typeof Operator
-// Part A
-
-
 // 1. Declare name = "Rahul" and print its type.
 let name = "Rahul";
 
