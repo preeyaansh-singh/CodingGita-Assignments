@@ -90,9 +90,87 @@ for _ in range(number):
 
 print(greatest)
 
+# Q30. Reverse a Number
+num = int(input("Enter a number : "))
+new_num = 0
 
+for i in range(num):
+    if num == 0:
+        break
+    digit = num % 10
+    new_num = new_num * 10 + digit
+    num //= 10
 
-    
-   
+print(new_num)
 
+# Q31. Palindrome Number
+num = int(input("Enter a number : "))
+new_num = 0
 
+for i in range(num):
+    if num == 0:
+        break
+    digit = num % 10
+    new_num = new_num * 10 + digit
+    num //= 10
+if new_num == num:
+    print("Number is a pallindrome")
+else:
+    print("Number is not a pallindrome")
+
+# Q32. Count a Specific Digit
+num = int(input("Enter a number: "))
+target = int(input("Enter target digit: "))
+count = 0
+if num == 0 and target == 0:
+    count = 1
+num = abs(num)
+while num > 0:
+    digit = num % 10
+    if digit == target:
+        count += 1
+    num //= 10
+print(count) 
+
+# Q33. First Digit Using Repeated Division
+num=int(input("Enter a number : "))
+for i in range(num):
+    if num<10:
+        break
+    num//=10
+print(num)
+
+# Q34. Difference Between Largest and Smallest Digit
+num=int(input("Enter a number : "))
+largest=0
+smallest=9
+while num>0:
+    digit=num%10
+    if digit>largest:
+        largest=digit
+    if digit<smallest:
+        smallest=digit
+    num//=10
+print(largest-smallest)
+
+# Q35. Digit Position Value
+num=int(input("Emter a number : "))
+position=1
+while num>0:
+    digit=num%10
+    print(digit,position)
+    num//=10
+    position+=1
+
+# Q36. Armstrong Number — 3 Digit
+num=int(input("Enter a number : "))
+temp=num
+total=0
+while temp>0:
+    digit=temp%10
+    total+=digit**3
+    temp//=10
+if total==num:
+    print("Armstrong Number")
+else:
+    print("Not Armstrong Number")
