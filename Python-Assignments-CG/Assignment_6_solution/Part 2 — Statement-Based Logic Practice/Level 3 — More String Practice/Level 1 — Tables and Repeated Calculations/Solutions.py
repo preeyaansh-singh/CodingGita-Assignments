@@ -43,3 +43,4 @@ for i in range(2,n+1):
             break
     if prime:
         print(i,end=" ")
+print("Thank You")
