@@ -1,46 +1,69 @@
-# Q96. Multiplication Tables from 1 to N
-n=int(input())
-k=int(input())
-for i in range(1,n+1):
-    for j in range(1,k+1):
-        print(i,"x",j,"=",i*j)
+# Q86. Count Words
+s=input()
+print(len(s.split()))
 
-# Q97. Number and Its Divisors
-n=int(input())
-for i in range(1,n+1):
-    print(i,":",end=" ",sep="")
-    for j in range(1,i+1):
-        if i%j==0:
-            print(j,end=" ")
-    print()
+# Q87. Replace All 'a' with 'e'
+s=input()
+print(s.replace("a","e"))
 
-# Q98. Count Divisors for Every Number
-n=int(input())
-for i in range(1,n+1):
-    count=0
-    for j in range(1,i+1):
-        if i%j==0:
-            count+=1
-    print(i,":",count)
+# Q88. Check for a Character
+s=input()
+ch=input()
+print(ch in s)
 
-# Q99. Perfect Numbers in a Range
-n=int(input())
-for i in range(1,n+1):
-    total=0
-    for j in range(1,i):
-        if i%j==0:
-            total+=j
-    if total==i:
-        print(i)
+# Q89. Compare Two Strings
+s1=input()
+s2=input()
+print(s1==s2)
 
-# Q100. Prime Numbers in a Range — Count Each Check
-n=int(input())
-for i in range(2,n+1):
-    prime=True
-    for j in range(2,i):
-        if i%j==0:
-            prime=False
-            break
-    if prime:
-        print(i,end=" ")
-print("Thank You")
+# Q90. Count Digits in a String
+s=input()
+count=0
+for ch in s:
+    if "0"<=ch<="9":
+        count+=1
+print(count)
+
+# Q91. Count Uppercase Letters
+s=input()
+count=0
+for ch in s:
+    if "A"<=ch<="Z":
+        count+=1
+print(count)
+
+# Q92. Count Lowercase Letters
+s=input()
+count=0
+for ch in s:
+    if "a"<=ch<="z":
+        count+=1
+print(count)
+
+# Q93. Remove All Vowels
+s=input()
+result=""
+for ch in s:
+    if ch.lower() not in "aeiou":
+        result+=ch
+print(result)
+
+# Q94. Remove All Digits
+s=input()
+result=""
+for ch in s:
+    if not ("0"<=ch<="9"):
+        result+=ch
+print(result)
+
+# Q95. Toggle Character Case
+s=input()
+result=""
+for ch in s:
+    if "a"<=ch<="z":
+        result+=ch.upper()
+    elif "A"<=ch<="Z":
+        result+=ch.lower()
+    else:
+        result+=ch
+print(result)
