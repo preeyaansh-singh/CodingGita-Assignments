@@ -9,7 +9,7 @@ while temp>0:
 if n==reverse:
     print("Palindrome")
 else:
-    print("Not Palindrome")
+    print("Not a Palindrome")
 
 # Q53. Count How Many Times a Digit Appears
 n=int(input())
