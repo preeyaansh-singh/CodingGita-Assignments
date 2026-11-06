@@ -1,0 +1,30 @@
+Q64. Print After Both Loops
+2
+3
+3
+4
+Finished
+
+
+Q65. Two Separate while Loops
+A 1
+A 2
+B 1
+B 2
+B 3
+
+
+Q66. Inner Counter Is Not Reset
+1 1
+1 2
+
+
+Q67. Update the Outer Variable After the Inner Loop
+11
+33
+
+
+Q68. Inner Loop Depends on the Outer Variable
+X
+1 X
+1 2 X
