@@ -1,23 +1,23 @@
 
 # Q79. Check Whether a Number Is Prime
 
-n = int(input())
-i = 2
-is_prime = True
-
-if n <= 1:
-    is_prime = False
-
-while i < n:
-    if n % i == 0:
-        is_prime = False
-        break
-    i += 1
-
-if is_prime:
-    print("Prime")
+isprime = True
+fact = 2
+num = int(input("Enter a number : "))
+while fact < num :
+    if num <= 1:
+        isprime = False
+    else:
+        if num % fact == 0:
+            isprime = False
+            break
+        else:
+            fact += 1
+            continue
+if isprime :
+    print("Number is prime.")
 else:
-    print("Not Prime")
+    print("Number is not prime.")
 
 
 # Q80. Find HCF (GCD)
