@@ -1,0 +1,52 @@
+Q77. Skip One Value, Then Break
+Code execution:
+
+For each value of i, the inner loop works as follows:
+- j = 1 → prints.
+- j = 2 → continue skips the print statement.
+- j = 3 → prints.
+- j = 4 → break terminates the inner loop.
+This repeats for both i = 1 and i = 2.
+
+Predicted output:
+1 1
+1 3
+2 1
+2 3
+
+
+Important concept:
+- continue skips the current iteration.
+- break terminates the current loop completely.
+
+Q78. Predict the Complete Output
+Let's trace each iteration carefully.
+
+When i = 1:
+- j = 1 → prints 1.
+- j = 2 → increments to 3, then skips.
+- j = 3 → prints 3.
+- j = 4 → prints 4.
+- j = 5 → inner loop ends.
+- Prints End.
+When i = 2:
+- j = 1 → prints 2.
+- j = 2 → increments to 3, then skips.
+- j = 3 → prints 6.
+- j = 4 → prints 8.
+- j = 5 → inner loop ends.
+- Prints End.
+When i = 3:
+- j = 1 → prints 3.
+- j = 2 → increments to 3, then skips.
+- j = 3 → prints 9.
+- j = 4 → i == 3 and j == 4 becomes TRUE.
+- break terminates the inner loop before printing 12.
+- Prints End.
+Finally, the outer loop ends and prints Done.
+
+Predicted output:
+1 3 4 End
+2 6 8 End
+3 9 End
+Done
