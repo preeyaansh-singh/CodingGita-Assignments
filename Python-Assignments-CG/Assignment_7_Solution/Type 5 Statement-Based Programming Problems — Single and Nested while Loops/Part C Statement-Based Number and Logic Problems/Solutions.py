@@ -97,7 +97,7 @@ while i<=a and i<=b:
 print()
 
 # Q98. Find Prime Factor Pairs
-n=int(input())
+n=int(input("Enter a number : "))
 a=2
 found=False
 while a*a<=n:
