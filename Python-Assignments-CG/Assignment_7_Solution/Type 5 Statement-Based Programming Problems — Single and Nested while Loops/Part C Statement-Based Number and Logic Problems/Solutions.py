@@ -123,3 +123,5 @@ while a*a<=n:
     a+=1
 if not found:
     print("No prime factor pair")
+
+print("Thank you")
